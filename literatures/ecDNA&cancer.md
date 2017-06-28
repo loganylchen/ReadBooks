@@ -22,15 +22,15 @@
 #### 结论 ####
 *使用* **one-sided Wilcoxon rank-sum test** *进行统计计算。*
 
-1. normal cell中的ecDNA count数很少，几乎没有![Alt text](/Users/chenyl/Desktop/1.png)
-2.	不同癌肿之间的ecDNA count数也差异不大![Alt text](/Users/chenyl/Desktop/2.png)
+1. normal cell中的ecDNA count数很少，几乎没有![Alt text](../pics/1.png)
+2.	不同癌肿之间的ecDNA count数也差异不大![Alt text](../pics/2.png)
 
 *使用* **beta-bin分布**进行proportion的估计（**这个真厉害** *因为每个细胞中的ecDNA含量不同，所以干脆以细胞为统计来进行proportion的估计*）
 
-3.	通过计算的proportion也能得到与count相类似的结果![Alt text](/Users/chenyl/Desktop/3.png)
-4.	使用fish的探针针对一些基因进行检测，然后能够检测到某些基因不仅仅在染色体上发生了copy number的变异，还在ecDNA上有。**有趣** ![Alt text](/Users/chenyl/Desktop/4.png)
-5.	通过mRNA的表达也能看出，ecDNA的扩增确实会影响表达![Alt text](/Users/chenyl/Desktop/5.png)
-6.	从copy number来看，也是ecDNA的扩增能够决定DNA的copy number![Alt text](/Users/chenyl/Desktop/6.png)
+3.	通过计算的proportion也能得到与count相类似的结果![Alt text](../pics/3.png)
+4.	使用fish的探针针对一些基因进行检测，然后能够检测到某些基因不仅仅在染色体上发生了copy number的变异，还在ecDNA上有。**有趣** ![Alt text](../pics/4.png)
+5.	通过mRNA的表达也能看出，ecDNA的扩增确实会影响表达![Alt text](../pics/5.png)
+6.	从copy number来看，也是ecDNA的扩增能够决定DNA的copy number![Alt text](../pics/6.png)
 
 
 #### 判断copy number变化来自于（不太理解的部分，有待于进一步理解） ####
