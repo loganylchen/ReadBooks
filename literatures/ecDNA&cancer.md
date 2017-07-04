@@ -10,7 +10,7 @@
 **[Double minutes](https://en.wikipedia.org/wiki/Double_minute)**: are small fragments of extrachromosomal DNA.
 
 
-####发现####
+#### 发现 ####
 1.	文中猜想这种ecDNA的存在导致了异质性的存在，导致有的细胞的copy number变化可以被治好，但是有的细胞的copy number变化无法被治好。这使我猜想，copy number的变化或者ecDNA导致的copy number的变化会不会是由于一个**driver gene** mutation导致。这对以后研究中出现异质性的结果后有一个较好的解释（*推到ecDNA*身上）。
 2.	目前还没有研究能够给出产生ecDNA的原因，这可能很关键。
 
