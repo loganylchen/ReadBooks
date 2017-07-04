@@ -3,6 +3,7 @@ BCFtools/csq: haplotype-aware variant consequences
 =======
 目录：
 [文献](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btx100#supplementary-data)
+[pdf](https://github.com/ChenYuelong/ReadBooks/blob/master/pdfs/BCFtoolscsq%20haplotype-aware%20variant%20consequences%20-%202017.pdf)
 
 [TOC]
 
