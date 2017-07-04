@@ -79,7 +79,7 @@ ambiguous cases in 2-3bp introns. Insertions can be counted either as part of th
 
 可以看出性能上的差异相差还是挺大的。
 BCFtools性能展示：
--  ![Alt text](../pics/bcftoolsFigure2.png)
+- ![Alt text](../pics/bcftoolsFigure2.png)
 - ![Alt text](../pics/bcftoolsFigure3.png)
 - ![Alt text](../pics/bcftoolsFigure4.png)
 - ![Alt text](../pics/bcftoolsFigure5.png)
