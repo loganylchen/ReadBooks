@@ -42,6 +42,7 @@ BCFtools/csq: haplotype-aware variant consequences
 | 2:220462640   |   start_lost |  missense\|STK11IP\|ENST00000295641\|protein_coding\|+\|1R>1M\|220462640G>T |
 |5:95865526|start_lost|missense\|STK11IP\|ENST00000295641\|protein_coding\|+\|1R>1M\|220462640G>T|
 |  6:26370748|start_lost|missense\|STK11IP\|ENST00000295641\|protein_coding\|+\|1R>1M\|220462640G>T|
+
 BCFtools is correct here, the start codon is not M and these apparent start lost events are in transcripts with incomplete CDS
 
 这三个认为是BCFtools的更准。
@@ -55,6 +56,7 @@ BCFtools is correct here, the start codon is not M and these apparent start lost
   |16:76311602 |frameshift | splice_acceptor|
   |17:46115122 |frameshift  |splice_acceptor|
   |15:99646107| frameshift  |splice_donor|
+
 ambiguous cases in 2-3bp introns. Insertions can be counted either as part of the exon or the intron and be thus called as frameshifts or splice events. Note that the introns also have non-canonical splicing, the gene prediction may be wrong anyway.
 
 这一部分就是比较不好判断的，因为刚好在交界处，可以认为是影响intron也可以认为是影响cds。
