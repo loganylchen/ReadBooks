@@ -72,7 +72,7 @@ ambiguous cases in 2-3bp introns. Insertions can be counted either as part of th
 >
 
 | 性能     |     VEP      |snpEff|ANNOVAR|csq（local）|csq（haplotype）
-| :--------: | :--------:| :------: |:------: |:------: |
+| :--------: | :--------:| :------: |:------: |:------: |:---:|
 | CPU time   |   6 hs |  35 min  | 24 min| 101 sec| 92 sec|
 |Memory| 17 GB | 7.8 GB| 3.9 GB |207 MB| 208 MB|
 
