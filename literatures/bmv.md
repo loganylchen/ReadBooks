@@ -3,7 +3,7 @@ MBV: a method to solve sample mislabeling and detect technical bias in large com
 ========
 [文献](https://academic.oup.com/bioinformatics/article-abstract/33/12/1895/2982050/MBV-a-method-to-solve-sample-mislabeling-and?redirectedFrom=fulltext)
 
-[pdf]()
+[pdf](https://github.com/ChenYuelong/ReadBooks/blob/master/pdfs/MBV%20a%20method%20to%20solve%20sample%20mislabeling%20and%20detect%20technical%20bias%20in%20large%20combined%20genotype%20and%20sequencing%20assay%20datasets%20-%202017.pdf)
 
 [toc]
 
