@@ -20,8 +20,9 @@ MBV: a method to solve sample mislabeling and detect technical bias in large com
 1. 输入：一个包含samples的vcf，一个要查验的bam。
 2. 输出：
 
+
 |sampleID|sampleMisGT|HeGT|HoGT|bamHeGT|bamHoHT|matchHe|matchHo|percentageHe|percentageHo|
-| :--------: | :--------:| :------: |:--------: | :--------:| :------: |:--------: | :--------:| :------: |
+| :--------: | :--------:| :------: |:--------: | :--------:| :------: |:--------: | :--------:| :------: |:---:|
 |HG00096 |0| 23764| 61721| 175 |499| 91| 333| 29|
 |HG00097 |0| 26639 |58846 |193 |481 |93 |317 |23|
 |HG00099 |0 |27672 |57813 |216| 458| 93 |294 |26|
