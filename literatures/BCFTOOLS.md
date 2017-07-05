@@ -3,6 +3,7 @@ BCFtools/csq: haplotype-aware variant consequences
 =======
 目录：
 [文献](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btx100#supplementary-data)
+[pdf](https://github.com/ChenYuelong/ReadBooks/blob/master/pdfs/BCFtoolscsq%20haplotype-aware%20variant%20consequences%20-%202017.pdf)
 
 [TOC]
 
@@ -41,23 +42,27 @@ BCFtools/csq: haplotype-aware variant consequences
 | 2:220462640   |   start_lost |  missense\|STK11IP\|ENST00000295641\|protein_coding\|+\|1R>1M\|220462640G>T |
 |5:95865526|start_lost|missense\|STK11IP\|ENST00000295641\|protein_coding\|+\|1R>1M\|220462640G>T|
 |  6:26370748|start_lost|missense\|STK11IP\|ENST00000295641\|protein_coding\|+\|1R>1M\|220462640G>T|
+
 BCFtools is correct here, the start codon is not M and these apparent start lost events are in transcripts with incomplete CDS
 
 这三个认为是BCFtools的更准。
 
 
->| 位置      |     VEP |   BCFtools   |
+>
+| 位置      |     VEP |   BCFtools   |
 | :--------: | :------:| :------: |
 |5:135513085 |frameshift | splice_acceptor|
  | 11:67765163 |frameshift|  splice_donor|
   |16:76311602 |frameshift | splice_acceptor|
   |17:46115122 |frameshift  |splice_acceptor|
   |15:99646107| frameshift  |splice_donor|
+
 ambiguous cases in 2-3bp introns. Insertions can be counted either as part of the exon or the intron and be thus called as frameshifts or splice events. Note that the introns also have non-canonical splicing, the gene prediction may be wrong anyway.
 
 这一部分就是比较不好判断的，因为刚好在交界处，可以认为是影响intron也可以认为是影响cds。
 
->| 位置      |     VEP |   BCFtools   |
+>
+| 位置      |     VEP |   BCFtools   |
 | :--------: | :------:| :------: |
 | 5:157094796 |splice_region |  intron|
 
@@ -67,14 +72,14 @@ ambiguous cases in 2-3bp introns. Insertions can be counted either as part of th
 >
 
 | 性能     |     VEP      |snpEff|ANNOVAR|csq（local）|csq（haplotype）
-| :--------: | :--------:| :------: |:------: |:------: |
+| :--------: | :--------:| :------: |:------: |:------: |:---:|
 | CPU time   |   6 hs |  35 min  | 24 min| 101 sec| 92 sec|
 |Memory| 17 GB | 7.8 GB| 3.9 GB |207 MB| 208 MB|
 
 
 可以看出性能上的差异相差还是挺大的。
 BCFtools性能展示：
--  ![Alt text](../pics/bcftoolsFigure2.png)
+- ![Alt text](../pics/bcftoolsFigure2.png)
 - ![Alt text](../pics/bcftoolsFigure3.png)
 - ![Alt text](../pics/bcftoolsFigure4.png)
 - ![Alt text](../pics/bcftoolsFigure5.png)

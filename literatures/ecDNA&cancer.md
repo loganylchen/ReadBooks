@@ -2,6 +2,7 @@
 # Extrachromosomal oncogene amplification drives tumor evolution and genetic heterogeneity #
 
 [文献](https://www.nature.com/nature/journal/v543/n7643/full/nature21356.html)
+[pdf](https://github.com/ChenYuelong/ReadBooks/blob/master/pdfs/Extrachromosomal%20oncogene%20amplification%20drives%20tumour%20evolution%20and%20genetic%20heterogeneity%20-%202017.pdf)
 
 **[ecDNA](https://en.wikipedia.org/wiki/Extrachromosomal_DNA)**: *extrachromosomal DNA* 
 - 这个染色体外的DNA指的是线粒体质粒DNA？（通过文献阅读，感觉这个染色体外DNA指的是从染色体上脱离下来的DNA）
