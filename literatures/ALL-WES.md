@@ -30,12 +30,12 @@ notebook: 文献阅读记录
  8. NKX2-1 (n = 14) 
 3. 针对一些之前没有报道过的突变，和一些较为复杂的突变，还做了基于扩增的测序（相当于做了一个验证）。
 4. 利用免疫数据，把样本分成了4组。而且免疫的分类和转录组的分类有一些共同的类别（就是部分样本在免疫的一个类别中，而且也同时在转录组的一个类别里）
-<en-media type="image/png" hash="d69267b56f62c5c4c0698326cc6ca95e"/>
+![f1](../pics/ng_All_f1.png)
 
 **图中展示的也很明显，也就是转录组的表达数据与免疫的数据具有一定的一致性**
 
 
-### Sequence mutations in pediatric（小儿科的） T-ALL ### 
+###Sequence mutations in pediatric（小儿科的）T-ALL ### 
 
 转录组数据+全外数据，最终检测到的突变
 >mean of 15.8 mutations (range: 2–50)
@@ -45,12 +45,12 @@ notebook: 文献阅读记录
 **MutSigCV**
 **MuSiC**
 
-**ProteinPaint画图软件**<en-media type="text/html" hash="41d773fb25de071da944c2d023ec83cb"/>
+**ProteinPaint画图软件**
 
 >We observed subclonal mutations (defined as those with a mutant allele fraction (MAF) of <0.3) frequently in many driver genes
 
 由这个就得到了一个结论，说亚克隆进化就是一个T-ALL的一个hallmark。这个结论有点意思，可以用到全外的其他项目中。
-<en-media type="image/png" hash="31a151f1a0dc1fbd09b5f9f64aae5034"/>
+![f2](../pics/ng_All_f2.png)
 
 **图中的一个亮点就是，他区分了之前报道中出现的基因，和之前报道中没有出现的基因，整个的实验方法和分析流程其实不算新，但是对于分析做的很细致。这点需要学习**
 
@@ -66,8 +66,8 @@ notebook: 文献阅读记录
 ### Gene rearrangements in pediatric T-ALL ###
 
 利用转录组数据检测基因重排，重排的结果：
-<en-media type="image/png" hash="9f12be20372cee092c22fc0370c9feab"/>
-<en-media type="image/png" hash="442a3eb8c48fe54290b7202e7b26c6ac"/>
+![t1](../pics/ng_All_table1.png)
+![t2](../pics/ng_All_table2.png)
 
 > showed that transcriptome sequencing does not identify all rearrangements, notably cases with TLX3 deregulation 
 
@@ -76,21 +76,21 @@ notebook: 文献阅读记录
 ### Recurrently targeted pathways in pediatric T-ALL ###
 
 将检测到的变异进行通路注释，然后进行整理
-<en-media type="image/png" hash="b86b2090b32f36e2416cfb5baae150c2"/>
+![f3](../pics/ng_All_f3.png)
 
 而且做了一个我们常作的基因共同突变及互斥关系，但是和我们常使用的OR及P值不太一样，他们使用相关系数。不过计算方法不太明了，因为正常来说突变和不突变的表示都为1，0表示方法，**难道是用VAF进行计算？这是个不错的方法，可以试一试。**
 
 >Significant association was defined as absolute correlation coefficient greater than 0.1 and p- value less than 0.05 from Spearman correlation analysis.
-<en-media type="image/png" hash="19c958749cb49abedb8c60cbe6275b83"/>
+![f4](../pics/ng_All_f4.png)
 
 而且根据样本的分组，将该组中显著出现的基因进行了网络展示，以通路为主体，哪个通路的基因在哪个组中显著出现，在计算基因与该类样本的关系，得出关系，而之前获得的基因与基因间的关系也可以展示在途中。这是一个很有意思的图。
-<en-media type="image/png" hash="3867f10f4b19ef23e79194b4e8c946e2"/>
+![f5](../pics/ng_All_f5.png)
 
 ### Somatic alterations targeting transcriptional regulators ###
 
 针对于转录因子基因（TF）
 主要说到一个MYCN基因的P44L位点
-<en-media type="image/png" hash="8d045222dbae4cbdf5025d6812b7cc7d"/>
+![f6](../pics/ng_All_f6.png)
 
 ### Signaling pathway mutations in T-ALL ###
 
