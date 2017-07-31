@@ -16,3 +16,4 @@
 8. [Rare germline variants in ATM are associated with chronic lymphocytic leukemia](https://github.com/ChenYuelong/ReadBooks/blob/master/literatures/CLL-germline.md)
 9. [Error bars](https://github.com/ChenYuelong/ReadBooks/blob/master/literatures/pos2.md)
 10. [Significance, P values and t-tests](https://github.com/ChenYuelong/ReadBooks/blob/master/literatures/pos3.md)
+11. [Points of significance Power and sample size](https://github.com/ChenYuelong/ReadBooks/blob/master/literatures/pos4.md)
