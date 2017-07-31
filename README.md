@@ -17,3 +17,4 @@
 9. [Error bars](https://github.com/ChenYuelong/ReadBooks/blob/master/literatures/pos2.md)
 10. [Significance, P values and t-tests](https://github.com/ChenYuelong/ReadBooks/blob/master/literatures/pos3.md)
 11. [Points of significance Power and sample size](https://github.com/ChenYuelong/ReadBooks/blob/master/literatures/pos4.md)
+12. [Visualizing samples with box plots](https://github.com/ChenYuelong/ReadBooks/blob/master/literatures/pos5.md)
