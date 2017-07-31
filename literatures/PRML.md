@@ -75,3 +75,46 @@ N为数据集的大小。
 ![table1.1-1](../pics/RPML1.1-4.png)
 
 可以发现，当M=9的时候，每个系数的绝对值已经特别大了。就会造成曲线的特别震荡。
+
+但是随着训练集中样本数目的增加，即便是当`M=9`，也能很好的见效这样的震荡，如下图所示：
+![figure1.1-4](../pics/RPML1.1-5.png)
+可见，当训练样本数从15升到100时，这样的震荡已经小到可以忽略不计了，也就是可以消除掉这种**overfitting**
+
+>One rough heuristic that is sometimes advocated is that the number of data points should be no less than some multiple (say 5 or 10) of the number of adaptive parameters in the model. 
+
+训练集中的样本数目不应该比参数的5～10倍少。
+_之前作ITD那个的时候，用的随机森林，样本数其实比参数少很多，可能只是参数的十分之一，但也能达到不错的效果，可能是由于随机森林的特性或者是test集的样本并没有很显著的反映出来过拟合_
+
+除了增大训练集中的样本数，还有其他方法能够控制over-fitting，比如`regularization`，就是对于参数加上一个penalty。防止参数过大导致过拟合。
+
+常用的方法就是在`error function`中加入参数的平方和（带参数）
+
+$$\widetilde{E}(w) = \frac{1}{2}\sum^{N}_{n=1}\{y(x_{n},w)-t_{n}\}^2+\frac{\lambda}{2}||w||^2$$
+其中$$||w||^2\equiv w^{T}w=w_0^2+w_1^2+...+w_M^2$$
+
+lambda相当于一个调节的参数。可以控制最小二乘和参数规划中的关系。而且**w0一般是被排除在外的**，因为他一般和target相关，或者是用它专属的regularization（==Section 5.5.1==）
+
+对于`M=9`利用上式进行规范化
+![figure1.1-5](../pics/RPML1.1-6.png)
+可以看出合理的lambda的值可以很好的进行调节。而且对于参数的量级也能进行很好的控制。（只是这个部分如何选择，可能还是需要通过Test Set来进行评估）
+![table1.1-2](../pics/RPML1.1-7.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
