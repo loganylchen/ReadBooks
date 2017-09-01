@@ -12,12 +12,13 @@ tags:POS, compare samples, P value
 文中用了一个例子，假设我们检测N=10000个基因的表达，然后我们使用的检测方法的power=80%，`a=0.05`，真实的阳性基因只占所有基因的10%，也就是effect chance=10%。
 
 这样计算下来
-$$TP（True Positive）=10000 * 10\% * 80\% = 800$$
-$$FP（False Positive）= 10000 * (1-10\%) * 0.05 = 450$$
-$$TN（True Negative）= 10000 * (1-10\%) *(1-0.05) = 8550$$
-$$FP（False Negative）= 10000 * 10\% * (1-80\%) = 200$$
 
-<en-media type="image/png" hash="cf47179639f5a458741a8809dff0fc83"/>
+$TP（True Positive）=10000 * 10\% * 80\% = 800$
+$FP（False Positive）= 10000 * (1-10\%) * 0.05 = 450$
+$TN（True Negative）= 10000 * (1-10\%) *(1-0.05) = 8550$
+$FP（False Negative）= 10000 * 10\% * (1-80\%) = 200$
+
+![<en-media type="image/png" hash="cf47179639f5a458741a8809dff0fc83"/>](../pics/pos7-1.png)
 
 这样一计算，一共检测出来1250个阳性基因，就有450个基因是假阳的。倘若effect chance只有1%，那么检测出来575个阳性基因，其中495个都是假阳性。所以这样如果还不进行后续的多重矫正，**错误的结果将造成严重的后果**。
 
@@ -30,7 +31,7 @@ $$FP（False Negative）= 10000 * 10\% * (1-80\%) = 200$$
 $$FPR=\frac{FP}{FP+TN}$$
 $$FDR=\frac{FP}{FP+TP}$$
 
-<en-media type="image/png" hash="26541801740876de77deb468abdda079"/>
+![<en-media type="image/png" hash="26541801740876de77deb468abdda079"/>](../pics/pos7-2.png)
 
 从图中可以看出对于effect chance为10%的时候，FDR在未经过矫正的情况下会特别的高（>20%），而经过矫正后又会大大的影响power，但从效果上来讲（Bonferroni < BH < Storey），当然这要研究的目的挂钩，如果本身有很多的阳性，那么可能需使用Bonferroni来降低假阳性，而本身阳性很少，那可能要用Storey来保证Power。
 
@@ -53,7 +54,7 @@ $$FDR=\frac{FP}{FP+TP}$$
 
 ### Storey ###
 
-$$\pi_{0}=\frac{\#\{p_{i}>\lambda\}}{(1-\lambda)m}$$
+$\pi_{0}=\frac{\#\{p_{i}>\lambda\}}{(1-\lambda)m}$
 
 详细的也没太明白。不过这个就是计算q值的。
 
