@@ -19,3 +19,4 @@
 11. [Points of significance Power and sample size](./literatures/pos4.md)
 12. [Visualizing samples with box plots](./literatures/pos5.md)
 13. [Comparing samples—part I](./literatures/pos6.md)
+14. [Comparing samples—part II](./literatures/pos7.md)
