@@ -20,3 +20,4 @@
 12. [Visualizing samples with box plots](./literatures/pos5.md)
 13. [Comparing samples—part I](./literatures/pos6.md)
 14. [Comparing samples—part II](./literatures/pos7.md)
+15.[Nonparametric tests](./literatures/pos8.md)
