@@ -21,3 +21,4 @@
 13. [Comparing samples—part I](./literatures/pos6.md)
 14. [Comparing samples—part II](./literatures/pos7.md)
 15. [Nonparametric tests](./literatures/pos8.md)
+16. [Designing comparative experiments](./literatures/pos9.md)
