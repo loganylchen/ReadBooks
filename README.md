@@ -1,5 +1,9 @@
 # README #
 
+## 说明
+
+已经不准备在github上继续更新有关文献阅读记录。此间内容会逐步更新到转移到[gitbook](https://chenyuelong.gitbooks.io/this-is-bioinformatics/content/)中。
+
 ### What is this ? ###
 
 * 为了让文献阅读更加高效，并且有一项记录，建立了这个项目，会慢慢增加内容。
