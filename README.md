@@ -2,7 +2,7 @@
 
 ## 说明
 
-已经不准备在github上继续更新有关文献阅读记录。此间内容会逐步更新到转移到[gitbook](https://chenyuelong.gitbooks.io/this-is-bioinformatics/content/)中。
+已经不准备在github上继续更新有关文献阅读记录。此间内容会逐步更新到转移到[gitbook](https://chenyuelong.gitbooks.io/steps2bioinformatics/content/)中。
 
 ### What is this ? ###
 
